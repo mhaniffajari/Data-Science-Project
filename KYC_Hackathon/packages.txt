@@ -1,0 +1,3 @@
+unixodbc-dev
+curl
+apt-transport-https
