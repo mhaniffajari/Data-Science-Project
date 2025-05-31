@@ -1,0 +1,10 @@
+*.pyc
+runLogs/*
+build/*
+dist/*
+auquan_toolbox.egg-info/*
+*csv.html
+.DS_Store
+*Data/*
+historicalData/*
+*.json
