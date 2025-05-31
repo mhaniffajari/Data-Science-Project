@@ -1,0 +1,13 @@
+{
+  "image": "continuumio/miniconda3",
+  "postCreateCommand": "conda install -c conda-forge mlflow jupyter -y",
+  "forwardPorts": [8888, 5000], // Forward Jupyter and MLflow server ports
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python", 
+        "ms-toolsai.jupyter" 
+      ]
+    }
+  }
+}
