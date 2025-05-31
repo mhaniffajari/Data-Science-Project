@@ -1,0 +1,10 @@
+streamlit
+tdqm 
+notebook==7.1.2 
+openai 
+elasticsearch 
+scikit-learn 
+pandas
+mistralai
+jupyterlab
+sentence_transformers==2.7.0
