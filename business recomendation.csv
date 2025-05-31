@@ -1,0 +1,4 @@
+cluster,category,RFM Characteristics,Action
+0,Best Customer,Frequent and recent customers with heavy spendings,Offering new product to them
+1,New Customer,Recent customer with low frequent and spendings,Develope customer relationship management to enchance shoping experience
+2,Risk to Churn Customer,Customer with high frequent and spendings. It has been long time since last transaction,Research why they don't transaction with long time. Customized marketing plans to encouraging purchase again.
