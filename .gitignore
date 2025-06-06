@@ -1,2 +1,4 @@
 .env
 faiss_index
+chroma_index
+chroma_db

@@ -12,3 +12,4 @@ chromadb
 langchain-community
 langchain_huggingface
 faiss-cpu
+langchain_chroma
