@@ -10,3 +10,4 @@ pymupdf
 langchain-text-splitters
 chromadb
 langchain-community
+langchain_huggingface
