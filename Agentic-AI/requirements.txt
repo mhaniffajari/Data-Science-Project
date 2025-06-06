@@ -9,3 +9,4 @@ arxiv
 pymupdf
 langchain-text-splitters
 chromadb
+langchain-community
