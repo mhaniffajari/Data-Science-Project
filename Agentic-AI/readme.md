@@ -13,3 +13,6 @@ Data Ingestion:
 - Store in vector database (FAISS, CHROMADB, ASTRA DB)
 
 Retrieval Chain to help AI query vector DB to add context in Gen AI
+
+![alt text](image.png)
+
