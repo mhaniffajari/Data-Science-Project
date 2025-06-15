@@ -1,5 +1,8 @@
-uv add "mcp[cli]"
+uv venv
 
+ .venv\Scripts\activate
+
+uv add "mcp[cli]"
 
 uv run mcp dev server/weather.py
 
