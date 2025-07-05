@@ -62,7 +62,9 @@ can build DAG in Agent workflow
 
 component : Node and Edge
 
-
+Node : python function to execute task
+Edge : connect the nodes
+State : entire graph
 
 
 
