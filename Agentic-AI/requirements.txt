@@ -19,3 +19,5 @@ fastapi
 langserve
 sse_starlette
 langgraph
+wikipedia
+langchain_ollama
