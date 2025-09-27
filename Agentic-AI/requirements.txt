@@ -21,3 +21,4 @@ sse_starlette
 langgraph
 wikipedia
 langchain_ollama
+pyppeteer==0.2.2

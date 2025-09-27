@@ -1,0 +1,19 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	characters(characters)
+	settings(settings)
+	premises(premises)
+	combine(combine)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> characters;
+	__start__ --> premises;
+	__start__ --> settings;
+	characters --> combine;
+	premises --> combine;
+	settings --> combine;
+	combine --> __end__;

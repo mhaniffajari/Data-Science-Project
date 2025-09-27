@@ -1,0 +1,18 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	generate(generate)
+	criteria(criteria)
+	improve(improve)
+	final(final)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> generate;
+	criteria -. &nbsp;Passed&nbsp; .-> final;
+	criteria -. &nbsp;Failed&nbsp; .-> improve;
+	generate --> criteria;
+	improve --> criteria;
+	final --> __end__;
