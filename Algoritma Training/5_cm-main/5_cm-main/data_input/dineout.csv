@@ -1,0 +1,13 @@
+Budget;Distance;Friend;Dine Out
+High;Far;Available;Yes
+High;Far;Absent;No
+Low;Near;Absent;No
+High;Near;Absent;Yes
+Low;Far;Absent;No
+High;Near;Absent;Yes
+Low;Near;Available;No
+Low;Far;Available;No
+Low;Near;Available;No
+High;Far;Absent;No
+High;Near;Available;Yes
+Low;Far;Absent;No
