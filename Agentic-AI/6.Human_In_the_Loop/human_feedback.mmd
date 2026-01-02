@@ -5,13 +5,15 @@ config:
 ---
 graph TD;
 	__start__([<p>__start__</p>]):::first
-	assistant(assistant<hr/><small><em>__interrupt = before</em></small>)
+	assistant(assistant)
+	human_feedback(human_feedback<hr/><small><em>__interrupt = before</em></small>)
 	tools(tools)
 	__end__([<p>__end__</p>]):::last
-	__start__ --> assistant;
+	__start__ --> human_feedback;
 	assistant -.-> __end__;
 	assistant -.-> tools;
-	tools --> assistant;
+	human_feedback --> assistant;
+	tools --> __end__;
 	classDef default fill:#f2f0ff,line-height:1.2
 	classDef first fill-opacity:0
 	classDef last fill:#bfb6fc
