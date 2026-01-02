@@ -1,0 +1,14 @@
+---
+config:
+  flowchart:
+    curve: linear
+---
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	assistant(assistant<hr/><small><em>__interrupt = before</em></small>)
+	tools(tools)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> assistant;
+	assistant -.-> __end__;
+	assistant -.-> tools;
+	tools --> assistant;
